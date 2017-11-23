@@ -1,5 +1,5 @@
 {
-  "name": "mo9-cli",
+  "name": "lain-cli",
   "version": "0.2.0",
   "description": "A simple CLI for creating your projects",
   "bin": {
