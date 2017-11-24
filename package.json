@@ -1,6 +1,6 @@
 {
   "name": "lain-cli",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "一个简易的脚本，实现的功能是能够从远程拉项目到本地",
   "bin": {
     "lain": "bin/lain"
