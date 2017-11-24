@@ -1,1 +1,6 @@
-{"gulp":{"owner/name":"HelloSkull/gulp-starter","branch":"master"}}
+{
+  "gulp": {
+    "owner/name": "caozihao/gulp-starter",
+    "branch": "master"
+  }
+}

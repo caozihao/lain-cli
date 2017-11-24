@@ -9,7 +9,7 @@ const question = [
     type: 'input',
     name: 'name',
     message: 'Set the custom name of the template:',
-    validate (val) {
+    validate(val) {
       if (tplList[val]) {
         return 'Template is existed!'
       } else if (val === '') {
@@ -23,7 +23,7 @@ const question = [
     type: 'input',
     name: 'place',
     message: 'Owner/name of the template:',
-    validate (val) {
+    validate(val) {
       if (val !== '') {
         return true
       }
@@ -39,6 +39,7 @@ const question = [
 ]
 
 module.exports = prompt(question).then(({ name, place, branch }) => {
+  // 重新写入值
   tplList[name] = {}
   tplList[name]['owner/name'] = place
   tplList[name]['branch'] = branch

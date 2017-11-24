@@ -1,12 +1,20 @@
-# lain
-1,npm install lain -g;<br>
-2,通过指令'lain'来查看该功能<br>
-3,预设gulp-starter
+# lain-cli [![NPM version](https://badge.fury.io/js/lain-cli.svg)](https://npmjs.org/package/lain-cli) [![Build Status](https://travis-ci.org/caozihao/lain-cli.svg?branch=master)](https://travis-ci.org/caozihao/lain-cli)
 
- 
+> 一个简易的脚本，实现的功能是能够从远程拉项目到本地
 
+## Installation
 
+```sh
+$ npm install --save lain-cli
+```
 
+## Usage
 
+```js
+var lainCli = require('lain-cli');
+lainCli();
+```
 
+## License
 
+MIT © [caozihao](https://github.com/caozihao)

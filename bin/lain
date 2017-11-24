@@ -54,6 +54,15 @@ program
     require(res('map'))
   })
 
+program
+  .command('file')
+  .description('Do some operation on the file')
+  .alias('f')
+  .action(() => {
+    require(res('file'))
+  })
+
+
 program.parse(process.argv)
 
 if (!program.args.length) {

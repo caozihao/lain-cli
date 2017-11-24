@@ -1,31 +1,32 @@
 {
   "name": "lain-cli",
-  "version": "0.2.2",
-  "description": "A simple CLI for creating your projects",
+  "version": "0.2.3",
+  "description": "一个简易的脚本，实现的功能是能够从远程拉项目到本地",
   "bin": {
     "lain": "bin/lain"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HelloSkull/lain.git"
+    "url": "git+https://github.com/caozihao/lain.git"
   },
   "keywords": [
     "scion",
     "cli",
     "es6"
   ],
-  "author": "HelloSkull",
+  "author": "caozihao",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HelloSkull/lain/issues"
+    "url": "https://github.com/caozihao/lain/issues"
   },
-  "homepage": "https://github.com/HelloSkull/lain#readme",
+  "homepage": "https://github.com/caozihao/lain#readme",
   "dependencies": {
     "chalk": "^1.1.3",
     "cli-table": "^0.3.1",
     "co": "^4.6.0",
     "commander": "^2.9.0",
     "download-git-repo": "^1.0.0",
+    "generate-readme": "^0.3.1",
     "handlebars": "^4.0.8",
     "inquirer": "^3.0.6",
     "metalsmith": "^2.3.0",
