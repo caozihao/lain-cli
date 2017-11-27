@@ -2,5 +2,9 @@
   "gulp": {
     "owner/name": "caozihao/gulp-starter",
     "branch": "master"
+  },
+  "webpack": {
+    "owner/name": "holynova/generator-sang",
+    "branch": "master"
   }
 }

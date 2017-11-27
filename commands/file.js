@@ -139,6 +139,7 @@ const readDdir = () => {
   });
 }
 
+// 监听文件
 const watch = () => {
   fs.watchFile(watchFile, (cur, prev) => {
     console.log('the current mtime is: ' + cur.mtime);
@@ -146,15 +147,15 @@ const watch = () => {
   })
 }
 
-
+// 解除监听
 const unwatch = () => {
-  // 解除监听
   setTimeout(function () {
     fs.unwatchFile(watchFile);
   }, 5000);
 }
 
 
+//创建文件读取流
 const createReadStream = () => {
   const input = fs.createReadStream(watchFile);
 
@@ -193,12 +194,14 @@ const createReadStream = () => {
   readLine(input, func);
 }
 
+//创建文件写入流
 const createWriteStream = () => {
   const out = fs.createWriteStream(writeFilePath, { encoding: "utf8" });
   out.write('渣渣渣');
   out.end();
 }
 
+//利用IO流来拷贝文件
 const readAndWriteStream = () => {
   const input = fs.createReadStream(watchFile);
   const outPut = fs.createWriteStream(writeFilePath);
@@ -221,7 +224,7 @@ const readAndWriteStream = () => {
   })
 }
 
-
+//重命名
 const rename = () => {
   fs.rename(`${__dirname}/../_.gitignore`, `${__dirname}/../.gitignore`, (err) => {
     if (err) throw err;
