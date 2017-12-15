@@ -16,6 +16,26 @@ var lainCli = require('lain-cli');
 lainCli();
 ```
 
+##  mode
+
+1,  查看有哪些脚手架 ( 内置一个 gulp 和 webpack 脚手架 ) 
+
+        lain  list
+
+2,  初始化template.json
+
+        lain init
+
+3,  添加一个脚手架 ( 会在README.md里添加一条信息 )
+
+        lain  add
+
+4,  删除一个脚手架 ( 会从README.md里删除一条信息 )
+
+        lain delete
+
+
+
 ## License
 
 MIT © [caozihao](https://github.com/caozihao)
