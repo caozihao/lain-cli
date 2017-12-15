@@ -26,11 +26,11 @@ lainCli();
 
         lain init
 
-3,  添加一个脚手架 ( 会在README.md里添加一条信息 )
+3,  添加一个脚手架 ( 会在template.json里添加一条信息 )
 
         lain  add
 
-4,  删除一个脚手架 ( 会从README.md里删除一条信息 )
+4,  删除一个脚手架 ( 会从template.json里删除一条信息 )
 
         lain delete
 
