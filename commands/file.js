@@ -109,10 +109,8 @@ const fileOrdDir = (statDir111) => {
         }
       })
     })
-
   })
 }
-
 //只遍历第一层
 const readDdir = () => {
   //当前进程所在的路径，不是当前脚本所在的路径

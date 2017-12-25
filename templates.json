@@ -4,7 +4,7 @@
     "branch": "master"
   },
   "webpack": {
-    "owner/name": "holynova/generator-sang",
+    "owner/name": "caozihao/webpack-starter",
     "branch": "master"
   }
 }
